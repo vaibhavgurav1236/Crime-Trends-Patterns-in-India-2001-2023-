@@ -1,110 +1,104 @@
-# Crime-Trends-Patterns-in-India-2001-2023
-Interactive Power BI dashboard analyzing crime trends in India (2001–2023). Includes year-wise patterns, state-wise insights, crime categories & year wise analysis. Built using Power Query, DAX, and data modelling to transform raw crime data into actionable insights.
+Crime Trends & Patterns in India (2001–2023) is an interactive Power BI report analyzing 23 years of crime data across states and districts. It includes trend analysis, geographic insights, key crime metrics, Q&A exploration, and a tooltip-enabled map for deeper context.
 
-A Power BI Data Analytics Project
+This Power BI project provides a comprehensive 23-year analysis of crime trends across India. Using official crime records, the report visualizes nationwide, state-level, and district-level crime patterns, enabling users to identify long-term trends, hotspots, and major crime contributors.
 
-📌 Project Overview
+🔍 Project Overview
 
-This project analyzes 23 years of crime data in India (2001–2023) to identify major trends, state-wise patterns, category-wise crime behavior. The goal is to transform raw crime statistics into meaningful insights using Power BI’s interactive visualization capabilities.
+This dashboard is designed to help users explore crime data from 2001 to 2023 through interactive visuals, geographic insights, time-series trends, and dynamic filters. A tooltip-enhanced map provides additional insights when hovering over any state.
 
-🎯 Key Objectives
+📌 Key Features
+1️⃣ Home Page (Navigation Hub)
 
-Analyze year-over-year crime trends
+A clean, themed landing page with navigation buttons that connect to:
 
-Identify high-crime states and Districts
+Crime Trends & Insights
 
-Study gender-based crime patterns
+Crime Analysis by Geography & Year
 
-Provide quick insights through interactive dashboards
+Q&A Page
 
-📂 Dataset
+Tooltip View
 
-The dataset contains:
+2️⃣ Crime Trends & Insights
 
-Year-wise crime counts
+This section offers a high-level understanding of nationwide crime trends:
 
-State-wise distribution
+Total Crimes by State (Bubble Map) with Tooltip
 
-🧠 Data Processing (Power Query)
+Annual Crime Trends (Bar Chart)
 
-Performed data cleaning & transformation, including:
+Custodial Rape vs Rape Over Time (Line Chart)
 
-Handling missing values
+Key KPIs such as:
 
-Column standardization
+Most crime-heavy year
 
-Unpivoting year columns
+Total crimes reported
 
-Creating fact & dimension tables
+Total rapes
 
-Adding custom calculated columns
+Total murders
 
-Data modelling with relationships
+Average crimes per year
 
-📊 Dashboard Pages
-1️ Crime Overview (India-wide)
+A narrative insight auto-updating based on selection
 
-KPI cards (Total Crimes, Avg Crimes Per Year, Highest Crime Year)
+3️⃣ Crime Analysis by Geography & Type
 
-23-year trend line
+This page focuses on geographic and categorical breakdowns:
 
-Top 10 affected states
+Top 3 States in Crime (Donut Chart)
 
-2️ Crime Category Analysis
+Top 5 Districts in Crime (Donut Chart)
 
-3️ State & Gender Insights
+Yearly Crime Distribution (Treemap)
 
-State-level slicers
+State selector for deeper drill-down
 
-4️ Predictive Analysis
+4️⃣ Q&A Page (AI-Powered Search)
 
-7-year crime Anaylysis
+Power BI’s natural language Q&A lets users ask questions like:
 
-💡 Major Insights
+“Top states by total rapes”
 
-Cybercrime shows rapid growth over the last decade
+“Most crimes by year”
 
-Crime volume is higher in large-population states, but crime rate varies
+“Total rapes by district”
 
-Certain crimes display seasonal or sudden spike patterns
+“How many states are there?”
 
-Violent crimes show a steady increase in recent years
+5️⃣ Tooltip Page
 
-🖥️ Tools & Technologies
+A custom tooltip is attached to the map visual and displays:
+
+Total crimes of the past 7 years
+
+Year-over-year comparison
+
+Percentage contribution indicators
+
+🛠️ Tools & Technologies Used
 
 Power BI Desktop
 
-Power Query
+Data Modeling (DAX, Measures, Relationships)
 
-DAX (Data Analysis Expressions)
+Interactive Visualizations
 
-Custom visuals & themes
+Custom Theme & Layout Design
 
-Data Modelling Techniques
+Tooltip-based exploration
 
-🎨 Visual Design
+🎯 Purpose of the Project
 
-light theme with dark borders 
-Clean layout with modern icons
+This Power BI report helps:
 
-Custom background canvas
+Identify long-term crime growth patterns
 
-Interactive slicers for easy navigation
+Understand geographic hotspots
 
+Analyze district-level crime distribution
 
-🚀 Learning Outcomes
+Compare crime categories over time
 
-Through this project, I learned:
-✔ Data cleaning & transformation in Power Query
-✔ DAX calculations for KPIs
-✔ Data modelling best practices
-✔ Designing meaningful dashboards
-✔ Turning data into a story
-
-🤝 Contributions
-
-Feel free to contribute by suggesting improvements or adding new datasets.
-
-⭐ Show Your Support
-
-If you like this project, consider giving it a star ⭐ on GitHub!
+Explore insights interactively using Q&A
